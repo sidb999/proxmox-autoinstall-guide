@@ -1,0 +1,4 @@
+mode = "iso"
+partition_label = "proxmox-ais"
+
+[http]

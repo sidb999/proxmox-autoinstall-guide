@@ -1,0 +1,21 @@
+[global]
+keyboard = "en-us"
+country = "ua"
+fqdn = "pveauto.lan"
+mailto = "root@o0.tel"
+timezone = "Europe/Kyiv"
+root_password = "1234"
+root_ssh_keys = [
+    "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDKojSPLZIKYuidpj0iuLKposOnpJmyetF44Fx9lTcha9lKQt8IzphNoD7Akq6eBiZj/tYFR8/ibEJfII8vlCYJVN3eNtIEdA26AENswPqAdTR3PToCWXBEjjqsnmoaJ4N0ifpyLsAbmFNlWSqFRO83rFFgACTTimEFcDTvo1HsVdTIPaBY2x4g8HDQy08bvyZd1rJSME00E97BcxTwTuKfwFOFDWP3t2cmsG4eWSCupSqBpaGqWIvRePZYxdUXMtxtDXNM78HH0WPXq9TqHTDs/kvzWmkcI3NOH8E1veAQOotvJGLFphA5iYZQxQ3oRp9hfhpDAL3MrTTbU3E4PJ7VyBa++knmu7/Wj7B1lTrsS1Sx3kgRBTUaRgtpyhH3NNA0I2Umgob73e7DvbZAgg3bfMEAvHa7+reru7TdXTdW2Q7iVSRZxLD0zVpqY37YBML1kOVLvus35C20jhAJ8uYsQOS12u5Uxj5dxm9iXIPi9tdWVEFOiCiedg0iUcs/2gFiHhzbNK/c287CuDGPALsPZMx3ADjBqLe8QpD37efThG97wNvdzLaldBBMqRmcxJyBCip183LJ2heo+/Ji774LVUuCkDL4nCTE68fD57a53EbAndML0dei2yZfQhN86J2+gHYA5hHY96PjMStow2Yn0GnNcNTrarHFD08tzNy30Q== root@mainsv",
+]
+
+[network]
+source = "from-dhcp"
+
+[disk-setup]
+filesystem = "ext4"
+lvm.hdsize = 230.0
+lvm.swapsize = 0.0
+lvm.maxvz = 0.0
+disk_list = ["sda"]
+# disk_list = ["sda", "nvme0n1"]
