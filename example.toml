@@ -1,0 +1,19 @@
+[global]
+keyboard = "en-us"
+country = "ua"
+fqdn = "autopve.lan"
+mailto = "your@email"
+timezone = "Europe/Kyiv"
+root_password = "1234"
+root_ssh_keys = ["ssh-rsa AAAAB..... root@hostname"]
+
+[network]
+source = "from-dhcp"
+
+[disk-setup]
+filesystem = "ext4"
+lvm.hdsize = 230.0
+lvm.swapsize = 0.0
+lvm.maxvz = 0.0
+disk_list = ["sda"]
+# disk_list = ["sda", "nvme0n1"]
